@@ -1,0 +1,16 @@
+The Visible Computer
+---------------------
+
+What is an OS
+--------------
+Kernel - Core part of the OS that handles the primary memory management
+Process - when a program starts to run
+Over time CPUs have been using more memory
+    Every CPU now has the ability to address memory
+        A certain number of pins are dedicated to talk to - or 'address' - memory
+        Over time this number went from 8 > 16 > 32 > 64 bits
+As a CPU can handle more memory, an OS has to keep up
+    Which is why there are x32 and x64 versions of OS
+    Software also has to keep up
+        Most 64 bit OS can run both 32 and 64 bit versions of software
+            But not the other way around
