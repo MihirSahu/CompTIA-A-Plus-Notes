@@ -3,6 +3,7 @@ The Visible Computer
 
 What is an OS
 --------------
+OS - Controls all programs on a computer
 Kernel - Core part of the OS that handles the primary memory management
 Process - when a program starts to run
 Over time CPUs have been using more memory
@@ -14,3 +15,69 @@ As a CPU can handle more memory, an OS has to keep up
     Software also has to keep up
         Most 64 bit OS can run both 32 and 64 bit versions of software
             But not the other way around
+The OS also manages the hardware
+    Device Drivers - Software that helps manage different types of devices
+        View windows drivers on the Device Manager
+    Different OS have different drivers
+Storage
+    Every OS stores data in folder or file like structures
+Networking
+
+
+Users and Power Users
+----------------------
+User account - every device has some type of user account
+    Uses some type of database to manage usernames/passwords
+    Used to allow multiple people to work on the same device by using different accounts
+Super user/ administrator account - manage normal user accounts
+    Have the power to do anything, whereas a normal user account may have limitations
+Every type of computer has built in user accounts and super user/administrator accounts of some form (phones, pc, etc.)
+
+
+Why Windows?
+-------------
+Why is windows the predominant OS today
+    Bill Gates's salesmanship
+        Per processor agreement - Made deal with Intel so that if someone bought an Intel CPU, they get a free copy of windows
+    Networking
+        Windows made networking easy with windows server
+        Windows server has a domain controller, which allows computers to network with each other easily
+            Domains are now called active directory
+            This feature is called single sign on (SSO) - this is owned by windows
+        OS X and Linux use Windows networking software to use single sign on
+
+
+Windows Editions and Versions
+------------------------------
+Editions
+    Home - used in home and small offices, have limitations
+        Cannot join windows domains
+    Professional/workstation - contain all basic tools that allow you to do whatever you need to do
+    Enterprise - designed for large organizations, have special features
+Versions - current exam covers 7, 8, 8.1, 10
+Windows 7
+    Contains the windows media center, which is obselete now
+    Was the dominant version of windows until windows 10 took over
+        Because it was stable and worked well
+Windows 8
+    Had a metro desktop with tiles
+    No start menu
+    Included the microsoft store for the first time
+    Charms bar - Bar on right side of screen
+    Settings app - contained features that were previously in the control panel
+        Both control panel and settings could be used to make same changes
+    Onedrive was introduced in windows 8
+Windows 8.1
+    Included the start menu
+Windows 10
+    Charms bar was removed
+    Start menu was redesigned
+
+
+Mac OS
+-------
+Single click on application to open
+Black dot under application icon on dock shows if it's open
+Command + q to quit an application
+System preferences - like settings or control panel on windows
+For decades the mac didn't have a terminal
