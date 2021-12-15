@@ -1,4 +1,0 @@
-CPU
-----
-
-CPU grabs lines of code from RAM
