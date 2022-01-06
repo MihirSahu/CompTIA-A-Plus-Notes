@@ -84,3 +84,30 @@
     - De facto file system for MacOS
     - 8 EiB volumes
     - 8 EiB files
+
+## Dynamic Disks
+- Microsoft created their own partitioning scheme, unique to windows
+- Can shrink/expand
+- By default drives are basic, to convert them to dynamic go to partition manager > right click > Convert to Dynamic Disk
+- Stripe, Span, Mirroring
+- Microsoft recommendations
+    1. Keep boot drive basic
+    2. Use GTP to boot drive
+    3. Easy to convert from basic to dynamic, but dynamic to basic will delete al data
+
+## Software Raid
+- Let OS handle raid for you
+- Storage Spaces app in Windows helps manage software raid
+- Software raid doesn't have a dedicated raid controller, so it requires the cpu to perform operations
+
+## Encrypting Mass Storage
+- Two types
+    - File based - encrypts individual files and folders
+        - Windows uses Encrypting File System (EFS), and is built in NTFS
+        - On windows, right click > Propertiess > Attributes > Advanced
+    - Disk based - encrypts entire disk
+        - Bitlocker
+        - Trusted Platform Module (TPM) - chip attached to motherboard that encrypts drive
+            - Must be turned on in bios/uefi
+        - Bitlocker to go can encrypt removable media and doesn't require TPM
+- Content is decrypted once user is logged in
